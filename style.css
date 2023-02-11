@@ -1,5 +1,93 @@
-.out-of-box {
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.hero {
     background-image: url(images/banner/banner3.png);
+    background-repeat: no-repeat;
+    /* Sizing */
+    /* width: 100vw; */
+    height: 880px;
+
+    /* Flexbox stuff */
     display: flex;
     justify-content: end;
+    align-items: center;
+
+    /* Text styles */
+    text-align: center;
+
 }
+
+.hero-inner {
+    margin-bottom: 130px;
+    margin-right: 130px;
+}
+
+
+.hero-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    /* text-align: right; */
+}
+
+.hero-description {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* text-align: right; */
+}
+
+.btn-primary {
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    background-color: white;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Previous failure styles */
+.previous-failure {
+    max-width: 1072px;
+    margin: auto;
+    gap: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.previous-failure-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.previous-failure-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.previous-failure-list li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    list-style: none;
+}
+
+.previous-failure-list i {
+    color: #16D887;
+}
+
+/* My Plans Style */
