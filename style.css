@@ -178,6 +178,7 @@ main {
 /* Footer styles */
 footer {
     background: #151414;
+    padding-top: 30px;
 }
 
 .footer-section {
@@ -216,7 +217,9 @@ footer {
 
 .future-content-social-icon {
     display: flex;
+    align-items: start;
     gap: 20px;
+    padding: 0;
 }
 
 .subscribe {
@@ -228,7 +231,17 @@ footer {
     font-weight: 600;
     font-size: 25px;
     line-height: 29px;
-
     color: #FFFFFF;
 
+}
+
+input {
+    margin-bottom: 15px
+}
+
+.mail-input {
+    padding: 10px 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background-color: black;
 }
