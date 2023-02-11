@@ -4,6 +4,12 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+main {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
 .hero {
     background-image: url(images/banner/banner3.png);
     background-repeat: no-repeat;
@@ -54,6 +60,17 @@ body {
     border-radius: 5px;
 }
 
+.btn-secondary {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    background-color: #005FAC;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
 /* Previous failure styles */
 .previous-failure {
     max-width: 1072px;
@@ -91,3 +108,127 @@ body {
 }
 
 /* My Plans Style */
+
+.my-plans {
+    margin: 130px auto;
+}
+
+.my-plans-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+
+}
+
+.my-plans-services {
+    display: flex;
+    justify-content: center;
+    gap: 85px;
+}
+
+.my-plans-services-individual {
+    text-align: center;
+}
+
+.my-plans-services-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+}
+
+.my-plans-services-description {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+
+/* Call to action */
+.call-to-action {
+    /* height: 300px; */
+    max-width: 1080px;
+    background-image: linear-gradient(45deg, rgba(52, 73, 193, .90), rgba(164, 124, 154, 0.112)),
+        url('images/watch.png');
+    background-repeat: no-repeat;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    /* padding: 60px; */
+}
+
+
+.cta-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.cta-content {
+    padding: 30px 60px 20px 60px;
+}
+
+/* Footer styles */
+footer {
+    background: #151414;
+}
+
+.footer-section {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+.future-content-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+
+}
+
+.future-content-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.future-content-contact {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.future-content-social-icon {
+    display: flex;
+    gap: 20px;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+
+}
